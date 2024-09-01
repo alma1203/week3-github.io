@@ -1,0 +1,118 @@
+header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+header img.logo {
+    max-width: 100%; 
+    height: auto;    
+}
+.ed-menu a:hover{
+    background: #778899;
+    color: fff;
+    transition: all 0.5s ease;
+    text-decoration: none;
+
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.centro{
+    text-align: center;
+}
+.izquierda{
+    text-align: left;
+}
+.derecha{
+    text-align: right;
+}
+.img-size {
+    width: 200px;   
+    height: 200px;  
+}
+.redes{
+    width: 80px;
+    height: 80px;
+}
+.fondo{
+    background-color:#a1d0ff;
+}
+.clientes{
+    width: 170px;
+    height: 170px;
+}
+.negrita{
+    font-weight: 900;
+}
+.justificado {
+    text-align: justify;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .log {
+        padding: 10px; 
+        background-color: #778899;         
+    }
+    .logotipo {
+        max-width: 40%;        
+        height: auto;            
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 20px;    
+    }
+    .ed-menu a:hover{
+        background: #778899;
+        color: fff;
+        transition: all 0.5s ease;
+        text-decoration: none;
+    
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+       
+
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+    
+    nav ul li a {
+        color: #000000;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+    .ed-item{
+        text-align: center;
+    }
+
+
+  
+
+    .redes {
+        display: inline-block;
+        margin: 10px;
+    }
+}
